@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Test Page</title>
+        <script>alert("This is an inline script!")
+                let c=()=>{
+                    let i=document.getElementById('in').value
+                    if (parstInt(i)+1<=15){
+                        alert(parstInt(i)+1);
+                    }else {(alert("Over weight!"))}
+                }
+        </script>
+    </head>
+    <body>
+    <p>Hello World!</p>
+    <input type="text" id="in">
+    <button onclick='c()'>Press Me</button>
+    
+    </body>
+</html>
